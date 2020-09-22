@@ -1,0 +1,31 @@
+.clients-box{
+    width: 100%;
+    display: flex;
+    background-color: whitesmoke;
+    justify-content: center;
+    height: 93vh;
+}
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color:  rgb(140,198,62);
+}
+
+
+.clientCard-box{
+    margin-top: 10px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+
+
+

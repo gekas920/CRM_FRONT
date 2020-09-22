@@ -1,0 +1,120 @@
+.companies-info-box{
+    margin-top: 20px;
+    position: absolute;
+    width: 90%;
+    height: 90vh;
+    z-index: 100;
+    background-color: whitesmoke;
+    box-shadow: 0.2em 0.2em 0.7em black;
+    margin-left: 1000px;
+    display: none;
+}
+
+.companies-info-box-show{
+    margin-left: 130px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.back-btn{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    margin-top: 43vh;
+    margin-left: 10px;
+    width: 50px;
+    height: 5vh;
+    border-radius: 50px;
+    border: none;
+    text-decoration: none;
+    outline: none;
+    background-color: rgb(140,198,62);
+    transition: .3s;
+    cursor:pointer;
+}
+
+.back-btn:hover{
+    color: white;
+}
+
+.box-companies-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    height: 90vh;
+    margin: 50px auto 0;
+    text-align: center;
+}
+
+.box-companies-info-image{
+    margin-bottom: 20px;
+    width: 250px;
+    height: 250px;
+    border-radius: 15%;
+    background: whitesmoke;
+}
+.box-companies-info-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15%;
+}
+
+.box-companies-info-p{
+    margin-top: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+    color: #281F19;
+    text-decoration: none;
+}
+
+.box-companies-info a{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 24px;
+    color: #281F19;
+    text-decoration: none;
+}
+
+.box-companies-info-link{
+    background-image: linear-gradient(rgb(140,198,62) 50%,rgb(140,198,62) 50%),linear-gradient(whitesmoke 50%, whitesmoke 50%);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: 0 2px, 100% 2px;
+    color: #1E3A52;
+    transition: .5s ease-in-out;
+}
+
+.box-companies-info-link:hover{
+    background-size: 100% 2px, 100% 2px;
+    color: #0080ff;
+}
+
+
+.box-companies-info-desc{
+    margin-top: 20px;
+}
+
+.companies-info-box-btn {
+    background-color: rgb(140,198,62);
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-left: 95%;
+    border-radius: 50px;
+    border: none;
+    transition: .3s;
+    cursor:pointer;
+    width: 50px;
+    height: 5vh;
+    outline: none;
+}
+
+
+.companies-info-box-btn:hover {
+    color: white;
+}

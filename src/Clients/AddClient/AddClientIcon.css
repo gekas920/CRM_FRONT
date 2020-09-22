@@ -1,0 +1,31 @@
+.addClient-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    position: absolute;
+    width: 150px;
+    height: 90vh;
+    float: right;
+    right: 0;
+    top : 62px;
+}
+
+.rightClientIcon{
+    color: #e9e9e9;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    height: 100px;
+    background: #0080ff;
+    border: 1px solid #0080ff;
+    cursor: pointer;
+
+}
+
+.rightClientIcon:hover{
+    color: #0080ff;
+    background-color: #e9e9e9;
+}

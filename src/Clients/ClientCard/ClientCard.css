@@ -1,0 +1,66 @@
+.clientCard{
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    transition-duration: .3s;
+}
+
+.clientCard img{
+    transition-duration: .3s;
+}
+
+.clientCard:hover{
+    width: 300px;
+    height: 300px;
+    transition-duration: .3s;
+    transition-delay: .5s;
+}
+.clientCard:hover img {
+    width: 300px;
+    height: 300px;
+    transition-duration: .3s;
+    transition-delay: .5s;
+
+}
+
+.clientCard div{
+    max-height: 100px;
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    z-index: 10;
+    position: absolute;
+    width: 100%;
+    pointer-events: none;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid;
+    color: #0080ff;
+}
+
+.clientCard div h3{
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin-top: -15px;
+    max-height: 10px;
+}
+
+.clientCard div h2{
+    margin-top: 10px;
+    margin-left: 10px;
+    max-height: 25px;
+}
+
+.clientCard-img{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    border-radius: 11px;
+}
+

@@ -1,0 +1,55 @@
+.container-dialog{
+    width: 400px;
+    height: 80vh;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.form-dialog{
+    width: 225px;
+}
+
+.form-dialog div {
+    margin-bottom: 15px;
+}
+
+.clients-input{
+    width:100%;
+    border: none;
+    height: 50px;
+    margin-top: 5px;
+    padding-left: 10px;
+    background: #f1f1f1;
+}
+
+.clients-input:focus{
+    background-color: #ddd;
+    outline: none;
+}
+
+.clients-btn {
+    background-color: rgb(140,198,62);
+    color: white;
+    height: 50px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;
+    width: 235px;
+    outline: none;
+}
+
+.clients-btn:hover {
+    opacity:1;
+}
+.clients-btn:disabled{
+    background-color: #cccccc;
+    color: #666666;
+}

@@ -1,0 +1,45 @@
+.client-info-dialog{
+    width: 350px;
+    height: 80vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.client-form-dialog{
+    width: 225px;
+}
+
+.client-img-dialog{
+    width: 225px;
+    height: 225px;
+    border-radius: 11px;
+}
+
+.client-btn {
+    background-color: rgb(140,198,62);
+    color: white;
+    height: 50px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    opacity: 0.9;
+    width: 223px;
+    outline: none;
+}
+
+.client-btn:hover {
+    opacity:1;
+}
+
+.client-btn p {
+    margin-top: 10px;
+}
