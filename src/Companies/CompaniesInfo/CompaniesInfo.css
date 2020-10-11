@@ -20,6 +20,7 @@
 .back-btn{
     display: flex;
     justify-content: center;
+    align-items: center;
     position: absolute;
     margin-top: 43vh;
     margin-left: 10px;
@@ -101,6 +102,7 @@
     background-color: rgb(140,198,62);
     display: flex;
     justify-content: center;
+    align-items: center;
     position: absolute;
     text-decoration: none;
     margin-top: 20px;

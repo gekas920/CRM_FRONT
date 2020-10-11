@@ -11,7 +11,8 @@ class NavBar extends React.Component
     componentDidMount() {
         Request.get('/users/name')
             .then(response=>{
-                this.props.pushName(response.data.name)
+                this.props.pushName(response.data.name);
+                localStorage.setItem('post',response.data.post)
             });
     }
 

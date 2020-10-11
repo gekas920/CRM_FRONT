@@ -161,12 +161,12 @@ class TaskInfo extends React.Component{
             <div className={'tasks-info-box tasks-info-box-show'}>
                 {this.props.path === 'all' &&
                 <div>
-                    <button className='companies-info-box-btn'
+                    {localStorage.getItem('post') === 'Manager' &&  <button className='companies-info-box-btn'
                             style={this.state.disabledTask || this.state.disabled || this.state.executor.name ? {backgroundColor:'grey'}:{}}
                             onClick={this.deleteTask}
                             disabled={this.state.disabled}>
                         <DeleteForeverIcon/>
-                    </button>
+                    </button>}
                 </div>
                 }
                     <div className='tasks-info-box-content'>

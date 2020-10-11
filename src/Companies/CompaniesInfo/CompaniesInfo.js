@@ -60,10 +60,10 @@ class CompaniesInfo extends React.Component{
                     </button>
                 </div>
                 <div>
-                    <button className='companies-info-box-btn'
+                    {localStorage.getItem('post') === 'Manager' && <button className='companies-info-box-btn'
                             onClick={this.deleteCompany} disabled={this.state.disabled}>
                         <DeleteForeverIcon/>
-                    </button>
+                    </button>}
                 </div>
                 <div className='box-companies-info'>
                     <div className='box-companies-info-image'>

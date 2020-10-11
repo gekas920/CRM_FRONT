@@ -20,12 +20,12 @@ function AddWorkerIcon() {
 
     return(
         <div>
-            <div className='addWorker-box'>
+            {localStorage.getItem('post') === 'Manager' &&  <div className='addWorker-box'>
                 <div className='rightWorkerIcon' onClick={handleClickOpen}>
                     <RecentActors style={{pointerEvents:'none',marginTop:'10px' }}/>
                     <p>Add Worker</p>
                 </div>
-            </div>
+            </div>}
             <Dialog open={open} onClose={handleClose}><WorkersDialog onClick={handleClose}/></Dialog>
         </div>
     )

@@ -20,10 +20,10 @@ function AddCompanyIcon() {
     return(
         <div>
             <div className='addClient-box'>
-                <div className='rightClientIcon' onClick={handleClickOpen}>
+                {localStorage.getItem('post') === 'Manager' &&  <div className='rightClientIcon' onClick={handleClickOpen}>
                     <SupervisedUserCircle style={{marginTop:'10px'}}/>
                     <p>Add Company</p>
-                </div>
+                </div>}
             </div>
             <Dialog open={open} onClose={handleClose}><AddCompanyDialog/></Dialog>
         </div>

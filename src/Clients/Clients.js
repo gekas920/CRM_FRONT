@@ -48,7 +48,7 @@ class Clients extends React.Component{
                        {this.showClients()}
                    </div>
                 </div>
-                <AddClientIcon/>
+                {localStorage.getItem('post') === 'Manager' &&  <AddClientIcon/>}
             </div>
         )
     }

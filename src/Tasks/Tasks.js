@@ -74,7 +74,7 @@ class Tasks extends React.Component{
                                                   path='all'
                 />}
             <div className='tasks-box'>
-                <AddTaskIcon/>
+               {localStorage.getItem('post') === 'Manager' &&  <AddTaskIcon/>}
             <TableContainer component={Paper} style={{width:'70%',marginTop:'25px',overflowX:'hidden'}}>
                 <Table className={{minWidth:'700px'}} aria-label="customized table">
                     <TableHead  style={{border:'2px solid #0080ff'}}>

@@ -73,9 +73,9 @@ class InfoCard extends React.Component{
                         <div>
                             {this.clientDialogTextField(this.state.company,'Company')}
                         </div>
-                        <button className='client-btn' onClick={this.deleteClient}>
+                       { localStorage.getItem('post') === 'Manager' && <button className='client-btn' onClick={this.deleteClient}>
                             Delete Client
-                        </button>
+                        </button>}
                     </div>
                 </div>)
         }
