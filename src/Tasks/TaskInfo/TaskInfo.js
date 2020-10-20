@@ -93,13 +93,13 @@ class TaskInfo extends React.Component{
           case 'exe':
               return (
                   <div className='tasks-content-elem' style={{marginTop:'50px'}}>
-                      <p>Executor: {this.state.executor.surname} {this.state.executor.name} {this.state.executor.thirdName}</p>
+                      <p>Исполнитель: {this.state.executor.surname} {this.state.executor.name} {this.state.executor.thirdName}</p>
                   </div>
               );
           case 'client':
               return (
                   <div className='tasks-content-elem'>
-                      <p>Client: {this.state.clientInfo.surname} {this.state.clientInfo.name} {this.state.clientInfo.thirdName}</p>
+                      <p>Клиент: {this.state.clientInfo.surname} {this.state.clientInfo.name} {this.state.clientInfo.thirdName}</p>
                   </div>
               );
           default:
@@ -183,7 +183,7 @@ class TaskInfo extends React.Component{
                                     aria-controls="panel1a-content"
                                     id="panel1a-header"
                                 >
-                                    <Typography>Description</Typography>
+                                    <Typography>Описание</Typography>
                                 </ExpansionPanelSummary>
                                 <ExpansionPanelDetails>
                                     <Typography style={{overflow:'scroll',maxHeight:'300px'}}>
@@ -199,7 +199,7 @@ class TaskInfo extends React.Component{
                                 )}
                                 onClick={this.takeTask}
                                 disabled={this.state.disabled}>
-                            Take task
+                            Взять задачу
                         </button>
                         }
                         {this.props.path === 'user' &&
@@ -210,7 +210,7 @@ class TaskInfo extends React.Component{
                                 onClick={this.completeTask}
                                 disabled={this.state.disabledConfirm}
                                 >
-                            Complete Task
+                            Завершить выполнение
                         </button>
                         }
                     </div>

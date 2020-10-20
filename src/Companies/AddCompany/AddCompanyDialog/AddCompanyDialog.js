@@ -130,7 +130,7 @@ class AddCompanyDialog extends React.Component{
             <p>
             <label>
                 {userField}
-                <input className='clients-input' type={'text'} name={stateField} placeholder={`Enter ${userField}`}
+                <input className='clients-input' type={'text'} name={stateField} placeholder={`Введите ${userField}`}
                         onChange={this.handleChange(stateField)}/>
             </label>
             </p>
@@ -143,13 +143,13 @@ class AddCompanyDialog extends React.Component{
             <div className='container-dialog' style={{height:'600px'}}>
                 <div className='form-dialog'>
                     {this.state.show && <Chip label={this.state.content} color="secondary" style={{width:'100%'}}/>}
-                        {this.inputField('name','Name')}
-                        {this.inputField('type','Type')}
-                        {this.inputField('link','Link')}
-                        {this.inputField('photoLink','link to photo')}
-                        {this.inputField('description','Description')}
+                        {this.inputField('name','Наименование')}
+                        {this.inputField('type','Тип')}
+                        {this.inputField('link','Ссылку на сайт')}
+                        {this.inputField('photoLink','Ссылку на фото')}
+                        {this.inputField('description','Описание')}
                         <button className={'clients-btn'} onClick={this.sendData} disabled={this.state.disabled}>
-                                Create company
+                                Создать компанию
                         </button>
                 </div>
             </div>

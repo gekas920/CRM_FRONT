@@ -79,12 +79,12 @@ class Tasks extends React.Component{
                 <Table className={{minWidth:'700px'}} aria-label="customized table">
                     <TableHead  style={{border:'2px solid #0080ff'}}>
                         <TableRow>
-                            <StyledTableCell style={{backgroundColor:'#0080ff'}}>Name</StyledTableCell>
-                            <StyledTableCell style={{backgroundColor:'#0080ff'}} align="right">Executor</StyledTableCell>
-                            <StyledTableCell style={{backgroundColor:'#0080ff'}} align="right">Result</StyledTableCell>
+                            <StyledTableCell style={{backgroundColor:'#0080ff'}}>Название</StyledTableCell>
+                            <StyledTableCell style={{backgroundColor:'#0080ff'}} align="right">Исполнитель</StyledTableCell>
+                            <StyledTableCell style={{backgroundColor:'#0080ff'}} align="right">Результат</StyledTableCell>
                             <StyledTableCell style={{backgroundColor:'#0080ff',
                                 display:'flex',marginBottom:'-3px'}}
-                                             align="right">Deadline <Warning style={{
+                                             align="right">Срок сдачи <Warning style={{
                                                  width:'20px',
                                                  marginRight:'5px',
                                                  marginTop:'-2px'

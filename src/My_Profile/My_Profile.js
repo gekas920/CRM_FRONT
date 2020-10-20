@@ -41,22 +41,22 @@ class UserInfo extends React.Component{
                 <div className='my--profile--box'>
                     <div className='card'>
                         <div>
-                            {FormPropsTextField(this.state.secondName,'Second Name')}
+                            {FormPropsTextField(this.state.secondName,'Фамилия')}
                         </div>
                         <div>
-                            {FormPropsTextField(this.state.firstName, 'First Name')}
+                            {FormPropsTextField(this.state.firstName, 'Имя')}
                         </div>
                         <div>
-                            {FormPropsTextField(this.state.thirdName,'Third Name')}
+                            {FormPropsTextField(this.state.thirdName,'Отчество')}
                         </div>
                         <div>
-                            {FormPropsTextField(this.state.post,'Post')}
+                            {FormPropsTextField(this.state.post,'Должность')}
                         </div>
                         <div>
-                            {FormPropsTextField(this.state.date,'Date')}
+                            {FormPropsTextField(this.state.date,'Дата рождения')}
                         </div>
                         <div>
-                            <button type={'submit'} className='logout-btn' onClick={this.logOut}>Log Out</button>
+                            <button type={'submit'} className='logout-btn' onClick={this.logOut}>Выйти</button>
                         </div>
                     </div>
                 </div>

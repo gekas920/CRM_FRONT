@@ -22,7 +22,7 @@ function AddTaskIcon() {
             <div className='addClient-box'>
                 <div className='rightClientIcon' onClick={handleClickOpen}>
                     <SupervisedUserCircle style={{marginTop:'10px'}}/>
-                    <p>Add Task</p>
+                    <p style={{textAlign:'center'}}>Добавить задачу</p>
                 </div>
             </div>
             <Dialog open={open} onClose={handleClose}><AddTaskDialog/></Dialog>

@@ -23,7 +23,7 @@ function AddWorkerIcon() {
             {localStorage.getItem('post') === 'Manager' &&  <div className='addWorker-box'>
                 <div className='rightWorkerIcon' onClick={handleClickOpen}>
                     <RecentActors style={{pointerEvents:'none',marginTop:'10px' }}/>
-                    <p>Add Worker</p>
+                    <p style={{textAlign:'center'}}>Добавить работника</p>
                 </div>
             </div>}
             <Dialog open={open} onClose={handleClose}><WorkersDialog onClick={handleClose}/></Dialog>

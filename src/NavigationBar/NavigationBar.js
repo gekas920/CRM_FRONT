@@ -36,15 +36,15 @@ class NavBar extends React.Component
                             <li><Link to='/main/tasks' className='navbar--elem'
                                       style = {window.location.pathname.includes('main') ?
                                           {backgroundColor:'whitesmoke',borderBottom :'2px #0080ff solid'} : {}}
-                                      onClick={this.handleClick}>Main</Link></li>
+                                      onClick={this.handleClick}>Главная</Link></li>
                             <li><Link to='/mytasks/usertasks' className='navbar--elem'
                                       style = {window.location.pathname.includes('mytasks') ?
                                           {backgroundColor:'whitesmoke',borderBottom :'2px #0080ff solid'} : {}}
-                                      onClick={this.handleClick}>My Tasks</Link></li>
+                                      onClick={this.handleClick}>Мои задачи</Link></li>
                             <li><Link to='/profile/my_profile' className='navbar--elem'
                                       style = {window.location.pathname.includes('profile') ?
                                           {backgroundColor:'whitesmoke',borderBottom :'2px #0080ff solid'} : {}}
-                                      onClick={this.handleClick}>Profile</Link></li>
+                                      onClick={this.handleClick}>Профиль</Link></li>
                         </ul>
                     </div>
                 </header>

@@ -12,8 +12,8 @@ class Companies extends React.Component{
         super(props);
         this.state = {
             columns: [
-                { title: 'Name', field: 'company_name' },
-                { title: 'Type', field: 'desc' },
+                { title: 'Наименование', field: 'company_name' },
+                { title: 'Тип', field: 'desc' },
             ],
             data: this.props.companyData.companyData,
             showInfo: false
@@ -53,7 +53,7 @@ class Companies extends React.Component{
                          options={{
                              pageSizeOptions:[5,10]
                          }}
-                         title="Companies"
+                         title="Компании"
                          columns={this.state.columns}
                          data={this.state.data}
                          style={{

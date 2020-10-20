@@ -59,22 +59,22 @@ class InfoCard extends React.Component{
                             <img src={this.state.link} className='client-img-dialog' alt={this.state.name}/>
                         </div>
                         <div>
-                            {this.clientDialogTextField(this.state.name,'Name','name')}
+                            {this.clientDialogTextField(this.state.name,'Имя','name')}
                         </div>
                         <div>
-                            {this.clientDialogTextField(this.state.surname,'Surname','surname')}
+                            {this.clientDialogTextField(this.state.surname,'Фамилия','surname')}
                         </div>
                         <div>
-                            {this.clientDialogTextField(this.state.thirdName,'Third name','thirdName')}
+                            {this.clientDialogTextField(this.state.thirdName,'Отчество','thirdName')}
                         </div>
                         <div>
-                            {this.clientDialogTextField(this.state.phone,'Phone','phone')}
+                            {this.clientDialogTextField(this.state.phone,'Телефон','phone')}
                         </div>
                         <div>
-                            {this.clientDialogTextField(this.state.company,'Company')}
+                            {this.clientDialogTextField(this.state.company,'Компания')}
                         </div>
                        { localStorage.getItem('post') === 'Manager' && <button className='client-btn' onClick={this.deleteClient}>
-                            Delete Client
+                            Удалить клиента
                         </button>}
                     </div>
                 </div>)

@@ -8,22 +8,22 @@ import './LeftMenuElem.css'
 function LeftMenuElem(props){
     let img;
     switch (props.context) {
-        case 'Companies':
+        case 'Компании':
             img = <BusinessCenter style={{pointerEvents:'none'}}/>;
             break;
-        case 'Tasks':
+        case 'Задачи':
             img = <Assignment style={{pointerEvents:'none'}}/>;
             break;
-        case 'My Tasks':
+        case 'Мои задачи':
             img = <Dashboard style={{pointerEvents:'none'}}/>;
             break;
-        case 'Clients':
+        case 'Клиенты':
             img = <People style={{pointerEvents:'none'}}/>;
             break;
-        case 'Archive':
+        case 'Архив':
             img = <LibraryBooks style={{pointerEvents:'none'}}/>;
             break;
-        case 'My Profile':
+        case 'Профиль':
             img = <Portrait style={{pointerEvents:'none'}}/>;
             break;
         default:

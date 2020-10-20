@@ -9,9 +9,9 @@ function LeftNavBar(props) {
            return(
                <div className='main--box'>
                    <div className='left--navbar'>
-                       <LeftMenuElem context='Tasks' link='/main/tasks'/>
-                       <LeftMenuElem context='Companies' link='/main/companies'/>
-                       <LeftMenuElem context='Clients' link='/main/clients'/>
+                       <LeftMenuElem context='Задачи' link='/main/tasks'/>
+                       <LeftMenuElem context='Компании' link='/main/companies'/>
+                       <LeftMenuElem context='Клиенты' link='/main/clients'/>
                    </div>
                </div>
            );
@@ -19,8 +19,8 @@ function LeftNavBar(props) {
            return(
                <div className='main--box'>
                    <div className='left--navbar'>
-                       <LeftMenuElem context='My Tasks' link='/mytasks/usertasks'/>
-                       <LeftMenuElem context='Archive' link='/mytasks/archive'/>
+                       <LeftMenuElem context='Мои задачи' link='/mytasks/usertasks'/>
+                       <LeftMenuElem context='Архив' link='/mytasks/archive'/>
                    </div>
                </div>
            );
@@ -28,7 +28,7 @@ function LeftNavBar(props) {
            return(
                <div className='main--box'>
                    <div className='left--navbar'>
-                       <LeftMenuElem context='My Profile' link='/profile/my_profile'/>
+                       <LeftMenuElem context='Профиль' link='/profile/my_profile'/>
                    </div>
                </div>
            );

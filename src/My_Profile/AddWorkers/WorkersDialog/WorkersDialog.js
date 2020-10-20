@@ -161,54 +161,54 @@ class WorkersDialog extends React.Component{
                 <div className='form-dialog'>
                     {this.state.show && <Chip label={this.state.content} color="secondary" style={{width:'100%'}}/>}
                     <div>
-                        Login:
+                        Логин:
                         <input className='clients-input'
-                               placeholder={'Enter Login'}
+                               placeholder={'Введиите логин'}
                                value={this.state.login}
                                name={'login'}
                                onChange={this.handleChange('login')}/>
                     </div>
                     <div>
 
-                        Password:
+                        Пароль:
                         <input className='clients-input'
                                name={'password'}
                                value={this.state.password}
-                               placeholder={'Enter Password'}
+                               placeholder={'Введите пароль'}
                                onChange={this.handleChange('password')}/>
                     </div>
                     <div>
-                                Name:
-                                <input className='clients-input' type={'text'} name={'name'} placeholder={'Enter Name'}
+                                Имя:
+                                <input className='clients-input' type={'text'} name={'name'} placeholder={'Введите имя'}
                                        value={this.state.name} onChange={this.handleChange('name')}/>
                     </div>
                     <div>
 
-                                Surname:
-                                <input className='clients-input' type={'text'} name={'surname'} placeholder={'Enter Surname'}
+                                Фамилия:
+                                <input className='clients-input' type={'text'} name={'surname'} placeholder={'Введите фамилию'}
                                        value={this.state.surname} onChange={this.handleChange('surname')}/>
                     </div>
                     <div>
 
-                                Third Name:
-                                <input className='clients-input' type={'text'} name={'thirdName'} placeholder={'Enter Third Name'}
+                                Отчество:
+                                <input className='clients-input' type={'text'} name={'thirdName'} placeholder={'Введите отчество'}
                                        value={this.state.thirdName} onChange={this.handleChange('thirdName')}/>
                     </div>
                     <div>
-                                Date:
-                                <input className='clients-input' type={'date'} name={'date'} placeholder={'Enter Date'}
+                                Дата рождения:
+                                <input className='clients-input' type={'date'} name={'date'} placeholder={'Введите дату рождения'}
                                        value={this.state.date} onChange={this.handleChange('date')}/>
                     </div>
                     <div>
-                                Post:
-                                <select className='clients-input' name={'post'} placeholder={'Enter Post'}
+                                Должность:
+                                <select className='clients-input' name={'post'} placeholder={'Выберите должность'}
                                         onChange={this.handleChange('clickedPost')}>
                                     {this.mapOption()}
                                 </select>
                     </div>
                     <div>
                             <button className={'clients-btn'} onClick={this.sendData} disabled={this.state.disabled}>
-                                Create worker
+                                Добавить работника
                             </button>
                     </div>
                 </div>

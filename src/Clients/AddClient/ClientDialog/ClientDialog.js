@@ -147,7 +147,7 @@ class ClientDialog extends React.Component{
             <p>
                 <label>
                     {userField}
-                    <input className='clients-input' type={'text'} name={stateField} placeholder={`Enter ${userField}`}
+                    <input className='clients-input' type={'text'} name={stateField} placeholder={`${userField}`}
                            onChange={this.handleChange(stateField)}/>
                 </label>
             </p>
@@ -159,17 +159,17 @@ class ClientDialog extends React.Component{
             <div className='container-dialog'  style={{height:'900px'}}>
                 <div className='form-dialog'>
 
-                    {this.inputField('name','Name')}
-                    {this.inputField('surname','SurName')}
-                    {this.inputField('thirdName','Third Name')}
-                    {this.inputField('company','Company')}
-                    {this.inputField('phone','Phone')}
-                    {this.inputField('date','Date')}
-                    {this.inputField('link','Link to Photo')}
+                    {this.inputField('name','Имя')}
+                    {this.inputField('surname','Фамилия')}
+                    {this.inputField('thirdName','Отчество')}
+                    {this.inputField('company','Компания')}
+                    {this.inputField('phone','Телефон')}
+                    {this.inputField('date','Дата рождения')}
+                    {this.inputField('link','Ссылка на фото')}
                     {this.state.show && <Chip label={this.state.content} color="secondary" style={{width:'100%'}}/>}
                     <div>
                         <button className={'clients-btn'} onClick={this.sendData} disabled={this.state.disabled}>
-                            Create client
+                            Создать клиента
                         </button>
                     </div>
                 </div>

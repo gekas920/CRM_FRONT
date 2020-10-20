@@ -80,7 +80,7 @@ class CompaniesInfo extends React.Component{
                                 aria-controls="panel1a-content"
                                 id="panel1a-header"
                             >
-                            <Typography>Description</Typography>
+                            <Typography>Описание</Typography>
                             </ExpansionPanelSummary>
                             <ExpansionPanelDetails>
                                 <Typography style={{overflow:'scroll',maxHeight:'300px'}}>
